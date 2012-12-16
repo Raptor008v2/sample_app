@@ -64,5 +64,8 @@ module SampleApp
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+    config.generators { |g| g.test_framework :rspec2 }
+
   end
 end
